@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+/************ Coustom Font Families Start  *************/
+@font-face {
+  font-family: august1;
+  src: url("../fonts/august-stories1.ttf");
+}
+@font-face {
+  font-family: august2;
+  src: url("../fonts/august-stories2.ttf");
+}
+
+/************ Coustom Font Families End  *************/
+/************* Brand Guidline start ***************/
+.main-color {
+  color: #a06138 !important;
+}
+/************* Brand Guidline End ***************/
+/*********** Anchor Tag Css Start  ***********/
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+/*********** Anchor Tag Css End  ***********/
+
+/******** Home Page Css Start ************/
+
+/************** Navabr Css Start  ************/
+.navbar {
+  background-color: transparent !important;
+}
+.nav-link {
+  font-family: "Jost", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  margin-right: 30px !important;
+  color: black !important;
+}
+.btn {
+  font-size: 20px !important;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  padding: 12px 35px !important;
+  background-color: #a06138 !important;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+/************** Navabr Css End  ************/
+/************** Hero Section Css Start  ************/
+.hero-sec {
+  background-color: rgba(233, 245, 248, 0.43);
+}
+.hero-sec h1 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 94px;
+  color: #403f3f;
+}
+.hero-sec h3 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  color: #145566;
+  margin-top: 30px;
+}
+.hero-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  color: #403f3f;
+  margin-top: 20px;
+}
+/************** Hero Section Css End  ************/
+/************** Peace Of Mind Section Css Start  ************/
+.secd-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  color: #145566;
+}
+.secd-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  color: #252525;
+  margin-top: 50px;
+}
+/************** Peace Of Mind Section Css End  ************/
+/************** Facebook Section Css Start  ************/
+.fb-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  text-align: center;
+  color: #403f3f;
+  margin-top: 100px;
+}
+.fb-sec .btn {
+  margin-top: 90px !important;
+}
+/************** Facebook Section Css End  ************/
+/************** Fotter Section Css Start  ************/
+.footer {
+  margin-top: 100px;
+  background-color: #145566;
+}
+.footer ul {
+  padding-left: 0px !important;
+  list-style: none;
+}
+.footer ul li {
+  font-family: "Jost" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  margin-bottom: 20px !important;
+  color: #ffffff !important;
+}
+
+.footer h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+}
+.footer h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.footer p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+.cpy-rt h4{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+/* identical to box height */
+text-align: center;
+color: #111111;
+padding: 30px 0px;
+}
+/************** Fotter Section Css End  ************/
+/******** Home Page Css End ************/
+
+/******** About Page Css Start ************/
+/******** About-Hero section Css Start  **********/
+.abt-hero img {
+  width: 100% !important;
+}
+.abt-hero {
+  padding: 0px !important;
+}
+/******** About-Hero section Css End  **********/
+/******** About-Recovery section Css Start  **********/
+.secd-sec {
+  background-color: #f6fbfc !important;
+}
+.recv-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 98px;
+  color: #145566;
+}
+.recv-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  color: #252525;
+  text-align: left;
+}
+/******** About-Recovery section Css End  **********/
+/******** About-Our Mission section Css Start  **********/
+.miss-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 98px;
+  text-align: center;
+  color: #145566;
+}
+.miss-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+  margin-top: 50px;
+}
+/******** About-Our Mission section Css End  **********/
+/******** About-core Values section Css Start  **********/
+.cor-val h2 {
+  font-family: "August Stories";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: #25758a;
+}
+.cor-val p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #1e1e1e;
+  margin-top: 30px;
+}
+.crd-1 h3 {
+  font-family: "August Stories";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #25758a;
+  margin-top: 20px;
+}
+.crd-1 p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 191.5%;
+  text-transform: capitalize;
+  color: #403f3f;
+  margin-top: 20px;
+}
+/******** About-core Values section Css End  **********/
+/******** About-Our  Team section Css Start  **********/
+.team-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 98px;
+  color: #145566;
+}
+.team-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 74px;
+  color: #403f3f;
+  margin-top: 50px;
+}
+.mng-crd h3 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #25758A;
+}
+.mng-crd p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 191.5%;
+  text-transform: capitalize;
+  color: #111111;
+}
+/******** About-Our  Team section Css End  **********/
+/******** About Page Css End ************/
+
+/******** Service Page Css Start ************/
+/******* Offer Section Css Start  ************/
+.offer-sec {
+  background-color: #f6fbfc;
+  margin-top: 150px;
+}
+.offer-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 68px;
+  color: #145566;
+}
+.offer-sec ul {
+  list-style: none;
+}
+.offer-sec ul li {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #5a5a5a;
+  margin-bottom: 15px;
+}
+/******* Offer Section Css End  ************/
+/******* Rehabilitation Section Css Start  ************/
+.rehab-crd h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #a06138;
+  margin-top: 70px;
+}
+.rehab-crd p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #5a5a5a;
+}
+/******* Rehabilitation Section Css End  ************/
+/******* Cards Section Css Start  ************/
+.card {
+  width: 100% !important;
+  border-radius: 20px !important;
+}
+.card-title {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 144%;
+  color: #403f3f;
+}
+.card-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #5a5a5a;
+}
+/******* Cards Section Css End  ************/
+/******* Rehab Offer Section Css Start  ************/
+.rehab-off h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  text-align: center;
+  color: #403f3f;
+}
+.rehab-off ul {
+  list-style: none;
+}
+.rehab-off ul li {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+  color: #5a5a5a;
+  margin-top: 30px;
+}
+/******* Rehab Offer Section Css End  ************/
+/******* Amenities Section Css Start  ************/
+.amen-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  color: #145566;
+}
+.amen-sec h3 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  /* line-height: 144%; */
+  /* identical to box height, or 68px */
+  text-align: center;
+  color: #403f3f;
+}
+.amen-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 45px;
+  text-align: center;
+  color: #403f3f;
+}
+.amen-sec ul li p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5a5a5a;
+  margin-left: 70px;
+  text-align: left;
+  line-height: 30px;
+}
+/******* Amenities Section Css End  ************/
+/******** Service Page Css End ************/
+/******** Employment Page Css Start ************/
+/*********** Main Section Css Start   **********/
+.empl-head h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 68px;
+  text-align: center;
+  color: #403f3f;
+}
+.empl-head h2 span {
+  color: #25758a;
+}
+.empl-head1 h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 68px;
+  /* text-align: center; */
+  color: #25758a;
+}
+.empl-head1 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 163.5%;
+  color: #5a5a5a;
+  margin-left: 20px;
+}
+.empl-head2 h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 68px;
+  /* text-align: center; */
+  color: #145566;
+}
+.empl-head2 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 163.5%;
+  color: #5a5a5a;
+  margin-left: 20px;
+}
+/*********** Main Section Css End  **********/
+/*********** Benifit Section Css Start  **********/
+.bnft-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 160.5%;
+  color: #145566;
+}
+.bnft-sec ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.bnft-sec ul li {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  /* line-height: 51px; */
+  color: #403f3f;
+  margin-top: 30px;
+}
+/*********** Benifit Section Css End  **********/
+/******** Employment Page Css End ************/
+/******** Contact Page Css Start ************/
+/****** Contact Form Section Css Start  ******/
+.cntct-sec h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  /* line-height: 190.5%; */
+  /* identical to box height, or 63px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  margin-top: 100px;
+}
+.cntct-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  /* line-height: 190.5%; */
+  /* or 137px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #25758a;
+  margin-top: 20px;
+}
+.cntct-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 190.5%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #252525;
+  margin-top: 50px;
+}
+.form-control {
+  border: none !important;
+  border-bottom: 1px solid #777777 !important;
+  border-radius: 0px !important;
+  margin-top: 20px;
+  font-family: "Jost" !important;
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  line-height: 190.5% !important;
+  text-transform: capitalize !important;
+  color: #777777 !important;
+  background-color: transparent !important;
+}
+.form-control:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.per-info p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+}
+/****** Contact Form Section Css End  ******/
+/******** Contact Page Css End ************/
+
+/******* Responsive Mobile media querries start  ********/
+@media screen and (max-width: 767px) {
+  .hero-sec h1{
+    font-size: 38px;
+  }
+  .hero-sec h3 {
+  font-size: 30px;
+  }
+  .hero-sec p {
+  font-size: 20px;
+  }
+  .secd-sec h2 {
+font-size: 35px;
+}
+.secd-sec p{
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.fb-sec h2{
+  font-size: 35px;
+}
+.fb-sec .btn {
+  margin-top: 15px !important;
+}
+.recv-sec h2{
+  font-size: 35px;
+  line-height: 50px;
+}
+.miss-sec h2{
+  font-size: 40px;
+  line-height: 60px;
+}
+.miss-sec p {
+font-size: 18px;
+line-height: 40px;
+}
+.cor-val h2{
+  font-size: 45px;
+  line-height: 7px;
+}
+.team-sec h2{
+  font-size: 45px;
+  line-height: 60px;
+}
+.team-sec p{
+  font-size: 18px;
+  line-height: 45px;
+  margin-top: 20px;
+}
+.offer-sec h2 {
+font-size: 45px;
+}
+.empl-head h2{
+  font-size: 40px;
+  line-height: 50px;
+}
+.empl-head2 h2{
+  font-size: 50px;
+}
+.bnft-sec h2{
+  font-size: 40px;
+    line-height: 120%;
+}
+}
+/******* Responsive Mobile media querries End  ********/
+/******* Responsive Tab media querries Start  ********/
+/************ Tab Section media querry Start  ***********/
+@media (min-device-width: 768px) and (max-device-width: 1080px) {
+  .hero-sec h1{
+    font-size: 40px;
+  }
+  .hero-sec h3{
+    font-size: 35px;
+  }
+  .secd-sec h2 {
+    font-size: 45px ;
+  }
+  .secd-sec p{
+    line-height: 45px;
+    margin-top: 30px;
+  }
+  .fb-sec h2 {
+  font-size: 35px;
+  }
+  .recv-sec h2 {
+  font-size: 35px;
+  line-height: 55px;
+  }
+  .recv-sec p{
+    line-height: 28px;
+  }
+  .miss-sec h2{
+    font-size: 31px;
+    line-height: 55px;
+  }
+  .miss-sec p{
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .team-sec h2{
+    font-size: 45px;
+    line-height: 70px;
+  }
+  .team-sec p{
+    font-size: 18px;
+    line-height: 50px;
+
+  }
+  .card-title{
+    font-size: 35px;
+  }
+  .rehab-off h2{
+    font-size: 30px;
+  }
+  .rehab-off ul li {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .amen-sec h3 {
+    font-size: 30px;
+  }
+  .amen-sec ul li p {
+  margin-left: 0px;
+  }
+  .empl-head h2 {
+  font-size: 40px;
+  }
+  .bnft-sec h2{
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .bnft-sec ul li{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+/******* Responsive Tab media querries End  ********/
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Container Media Querry Start  **************/
+@media screen and (min-width: 1780px) {
+  .container {
+    max-width: 1780px !important;
+  }
+}
+/********** Container Media Querry End  **************/
